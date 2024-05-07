@@ -8,7 +8,7 @@ export const HomeSection = () => {
     <div className="relative flex justify-center items-center">
       <Image
         data-aos="zoom-in"
-        className="w-screen h-96 md:h-full"
+        className="w-screen h-screen md:h-full"
         alt="image home"
         src={Image1}
         width={1621}
