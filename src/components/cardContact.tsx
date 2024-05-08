@@ -13,7 +13,7 @@ export const CardContact = (props: CardContactProps) => {
   return (
     <div
       data-aos="zoom-out"
-      className="flex flex-col items-center justify-center p-2 mt-8 bg-gray-100 rounded shadow-xl ease-in w-72 h-72"
+      className="flex flex-col items-center justify-center p-2 mt-4 md:mt-8 bg-gray-100 rounded shadow-xl ease-in w-80 h-80"
     >
       <div className={`text-2xl ${props.color}`}>{props.icon} </div>
 

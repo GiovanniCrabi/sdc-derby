@@ -31,7 +31,7 @@ export const Header = () => {
           </li>
           <li>
             <Link href="#" className="text-white hover:text-gray-300">
-              Sobre
+              Agenda
             </Link>
           </li>
           <li>

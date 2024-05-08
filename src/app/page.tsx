@@ -3,6 +3,7 @@ import { Card } from "@/components/card";
 import { CardContact } from "@/components/cardContact";
 import { Contacts } from "@/components/contacts";
 import { Divider } from "@/components/divider";
+import { EventSection } from "@/components/eventSection";
 import { Header } from "@/components/header";
 import { HomeSection } from "@/components/homeSection";
 import Image from "next/image";
@@ -17,6 +18,8 @@ export default function Home() {
       <HomeSection />
 
       <AboutUs />
+
+      <EventSection />
 
       <Contacts />
     </main>
