@@ -3,6 +3,7 @@ import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 
 import { AosInitializer } from "@/components/aosInitializer";
+import { Header } from "@/components/header";
 
 const roboto = Roboto({
   subsets: ["cyrillic"],
@@ -23,6 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
+        <Header />
+
         <AosInitializer />
         {children}
       </body>

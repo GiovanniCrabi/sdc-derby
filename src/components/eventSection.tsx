@@ -6,6 +6,7 @@ import biblia from "../../public/estudobiblico.webp";
 import oração from "../../public/oracao.webp";
 
 import Img from "../../public/image1.jpg";
+import Link from "next/link";
 
 export const EventSection = () => {
   return (
@@ -34,7 +35,7 @@ export const EventSection = () => {
 
           <Image
             data-aos="zoom-in-right"
-            className="flex md:hidden h-80"
+            className="flex md:hidden h-80 rounded-md"
             alt="consagração-image"
             src={consagração}
             width={420}
@@ -53,7 +54,7 @@ export const EventSection = () => {
           </div>
 
           <Image
-            className="h-80 md:h-96"
+            className="h-80 md:h-96 rounded-md md:rounded-none"
             data-aos="zoom-in-right"
             alt="oração-image"
             src={oração}
@@ -82,7 +83,7 @@ export const EventSection = () => {
 
           <Image
             data-aos="zoom-in-right"
-            className="flex md:hidden h-80"
+            className="flex md:hidden h-80 rounded-md"
             alt="estudo-biblico"
             src={biblia}
             width={420}
@@ -96,7 +97,12 @@ export const EventSection = () => {
             <h1 className="text-lg font-bold uppercase text-yellow-600">
               Culto todos os sábados
             </h1>
-            <p>(Confira nossa agenda)</p>
+            <Link
+              href="#"
+              className="mt-2 hover:underline ease-in duration-300"
+            >
+              (Confira nossa agenda)
+            </Link>
             <p className="mt-4">
               Junte-se a nós para um culto especial nesta sexta-feira! Venha
               experimentar uma noite de louvor, oração e inspiração. Todos são
@@ -106,7 +112,7 @@ export const EventSection = () => {
           </div>
           <Image
             data-aos="zoom-in-right"
-            className="h-80 md:h-96"
+            className="h-80 md:h-96 rounded-md md:rounded-none"
             alt="image"
             src={culto}
             width={420}

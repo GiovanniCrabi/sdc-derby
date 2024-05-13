@@ -13,8 +13,6 @@ import { MdLocationOn } from "react-icons/md";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
-      <Header />
-
       <HomeSection />
 
       <AboutUs />
