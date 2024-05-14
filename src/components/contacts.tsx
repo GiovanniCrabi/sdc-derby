@@ -3,14 +3,11 @@ import { CardContact } from "./cardContact";
 import { FaFacebook, FaInstagram, FaPhoneAlt, FaYoutube } from "react-icons/fa";
 import { Divider } from "./divider";
 import Link from "next/link";
+import ContactForm from "./formsContact";
 
 export const Contacts = () => {
   return (
-    <div className="pt-20 bg-white w-full flex flex-col justify-center items-center">
-      <h1 data-aos="fade-left" className="text-4xl font-bold text-black">
-        Contato
-      </h1>
-
+    <div className="pt-10 bg-white w-full flex flex-col justify-center items-center">
       <div className="relative mx-auto px-4 sm:px-6 max-w-7xl pt-10 w-1/1 pb-24">
         <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
           <CardContact
@@ -39,20 +36,11 @@ export const Contacts = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-tr from-gray-200 via-black to-black h-36 w-full flex justify-center items-center">
-        <div className="flex justify-center items-center gap-6">
-          <Link href="#">
-            <FaInstagram className="text-4xl text-yellow-400" />
-          </Link>
-
-          <Link href="#">
-            <FaFacebook className="text-4xl text-yellow-400" />
-          </Link>
-
-          <Link href="#">
-            <FaYoutube className="text-4xl text-yellow-400" />
-          </Link>
-        </div>
+      <div className="w-full mb-20 flex flex-col justify-center items-center">
+        <h1 className="text-black  font-bold text-3xl">
+          Nos envie uma mensagem
+        </h1>
+        <ContactForm />
       </div>
     </div>
   );

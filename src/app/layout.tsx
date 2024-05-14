@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { AosInitializer } from "@/components/aosInitializer";
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 const roboto = Roboto({
   subsets: ["cyrillic"],
@@ -28,6 +29,8 @@ export default function RootLayout({
 
         <AosInitializer />
         {children}
+
+        <Footer />
       </body>
     </html>
   );

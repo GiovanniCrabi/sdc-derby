@@ -9,9 +9,9 @@ export const metadata = {
 
 export default function Agenda() {
   return (
-    <div className="flex justify-center items-center h-full w-full">
-      <div className="px-6 md:px-24 py-12 h-96">
-        <Image alt="agenda-mes" src={AgendaPhoto} />
+    <div className="flex justify-center items-center w-full">
+      <div className="px-6 md:px-24 py-12">
+        <Image alt="agenda-mes" src={AgendaPhoto} className="mb-10" />
       </div>
     </div>
   );
