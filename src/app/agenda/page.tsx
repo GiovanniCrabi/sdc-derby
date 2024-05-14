@@ -4,7 +4,7 @@ import Image from "next/image";
 import AgendaPhoto from "../../../public/agenda.jpeg";
 
 export const metadata = {
-  title: "Impacta Devops",
+  title: "Agenda",
 };
 
 export default function Agenda() {
