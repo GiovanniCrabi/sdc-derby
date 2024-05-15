@@ -3,6 +3,10 @@ import { HeaderInstitucional } from "@/components/headerInstitucional";
 
 import image from "../../../public/oracao.webp";
 
+export const metadata = {
+  title: "Contato - SDC",
+};
+
 export default function Contato() {
   return (
     <div>

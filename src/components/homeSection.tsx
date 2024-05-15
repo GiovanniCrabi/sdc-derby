@@ -18,12 +18,12 @@ export const HomeSection = () => {
       <div className="absolute text-center">
         <div className="flex flex-col items-center justify-center">
           <h1
-            data-aos="fade-up"
+            data-aos="fade-left"
             className="text-white font-bold text-4xl md:text-6xl"
           >
             He is the Only Way
           </h1>
-          <p data-aos="fade-down" className="mt-2 md:mt-6">
+          <p data-aos="fade-right" className="mt-2 md:mt-6">
             John 14:6
           </p>
           <Image

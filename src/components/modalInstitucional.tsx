@@ -16,7 +16,7 @@ export const ModalInstitucional = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/visao"
               className="text-white hover:text-gray-300 block py-2 hover:underline hover:underline-offset-2 ease-in duration-300"
             >
               Nossa Visão
@@ -24,7 +24,7 @@ export const ModalInstitucional = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/missao"
               className="text-white hover:text-gray-300 block py-2 hover:underline hover:underline-offset-2 ease-in duration-300"
             >
               Nossa Missão
@@ -32,7 +32,7 @@ export const ModalInstitucional = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/valores"
               className="text-white hover:text-gray-300 block py-2 hover:underline hover:underline-offset-2 ease-in duration-300"
             >
               Nossos Valores
@@ -40,7 +40,7 @@ export const ModalInstitucional = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/cultura"
               className="text-white hover:text-gray-300 block py-2 hover:underline hover:underline-offset-2 ease-in duration-300"
             >
               Nossa Cultura

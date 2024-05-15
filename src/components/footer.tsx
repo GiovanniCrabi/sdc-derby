@@ -1,7 +1,7 @@
 import Image from "next/image";
 import footerBgImage from "../../public/oracao.webp";
 import Logo from "../../public/subImage.png";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -16,41 +16,44 @@ export const Footer = () => {
         bottom: 0,
         width: "100%",
       }}
-      className="py-12"
+      className="py-6 md:py-16"
     >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:items-start">
         {/* Primeira coluna: Logo e mensagem */}
         <div className="w-full flex flex-col items-center justify-center">
-          <Image
-            src={Logo}
-            alt="Logo"
-            width={250}
-            height={150}
-            className="mb-1"
-          />
-          <p className="text-gray-300 mb-4">Faça parte da família</p>
+          <Image src={Logo} alt="Logo" width={250} height={150} />
+          <p className="text-gray-300 mb-1">Faça parte da família</p>
         </div>
         {/* Segunda coluna: Contato */}
-        <div className="w-full flex flex-col items-center mb-4">
-          <h3 className="text-white font-semibold mb-4 text-3xl">Contato</h3>
-          <div className="text-start">
-            <p className="text-gray-300 mb-2">
+        <div className="w-full flex flex-col items-center mb-1">
+          <h3 className="text-white font-semibold mb-1 text-3xl">Contato</h3>
+          <div className="flex flex-col justify-center items-center">
+            <Link
+              href="https://maps.app.goo.gl/ujwaZrBTcCxcAWWo7"
+              className=" hover:underline hover:underline-offset-2 text-gray-300 mb-1"
+            >
               {" "}
-              <span className="font-bold"> Endereço: </span> 1, The Old Maltings
-            </p>
-            <p className="text-gray-300 mb-2">
+              1, The Old Maltings
+            </Link>
+            <Link
+              href={`tel:07456944667`}
+              className=" hover:underline hover:underline-offset-2 text-gray-300 mb-1"
+            >
               {" "}
-              <span className="font-bold"> Telefone: </span> 07456944667
-            </p>
-            <p className="text-gray-300">
+              07456944667
+            </Link>
+            <Link
+              href={`mailto:sdcderby@gmail.com`}
+              className=" hover:underline hover:underline-offset-2 text-gray-300"
+            >
               {" "}
-              <span className="font-bold"> Email: </span> sdcderby@gmail.com
-            </p>
+              sdcderby@gmail.com
+            </Link>
           </div>
         </div>
         {/* Terceira coluna: Redes sociais */}
         <div className="w-full flex flex-col items-center">
-          <h3 className="text-white font-semibold mb-4 text-3xl mt-4">
+          <h3 className="text-white font-semibold mb-1 text-3xl mt-4">
             Redes Sociais
           </h3>
           <ul className="flex space-x-4">
@@ -63,14 +66,7 @@ export const Footer = () => {
                 <FaFacebook className="text-4xl" />
               </Link>
             </li>
-            <li>
-              <Link
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                <FaYoutube className="text-4xl" />
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="https://www.instagram.com/sdc.church.derby"

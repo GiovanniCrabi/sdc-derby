@@ -40,7 +40,7 @@ export default function ContactForm() {
     <div className="w-full flex justify-center items-center mt-8 px-4 md:px-0">
       {isSubmitted ? (
         <div className="border border-green-400  text-green-700 px-4 py-3 rounded">
-          Obrigado por enviar o formulário!
+          Obrigado por nos contactar!
         </div>
       ) : (
         <form
