@@ -223,7 +223,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="/missoes"
+                        href="/missao"
                         className="text-white hover:text-gray-300 block py-2 hover:underline hover:underline-offset-2 ease-in duration-300"
                         onClick={handleLinkClick}
                       >
