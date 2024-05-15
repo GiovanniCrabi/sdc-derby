@@ -23,9 +23,8 @@ export default function Visao() {
 
         <div className="mt-12 mb-12">
           {frases.map((f) => (
-            <div data-aos="zoom-in">
+            <div key={f.id} data-aos="zoom-in">
               <div
-                key={f.id}
                 className="mt-6 w-full md:w-11/12 bg-yellow-300 h-1 rounded-t-lg"
                 data-aos="zoom-in"
               />
