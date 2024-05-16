@@ -19,7 +19,7 @@ export default function SobreNos() {
       />
 
       <div className="w-full py-10 md:py-20 px-8 md:px-36 bg-white">
-        <h1 className="text-gray-500">
+        <h1 data-aos="zoom-in" className="text-gray-500">
           {" "}
           Nossa Missão é viver o supremo mandamento: AMAR a Deus acima de tudo,
           AMAR as pessoas como Cristo nos AMOU e nos ensinou a Amar, SERVIR
@@ -30,7 +30,7 @@ export default function SobreNos() {
         </h1>
 
         <div className="pl-6 md:px-8">
-          <p className="text-gray-500 mt-8">
+          <p data-aos="zoom-out" className="text-gray-500 mt-8">
             <span className="font-extrabold"> Amor: </span> Buscamos amar a Deus
             de todo o nosso coração, alma e mente, reconhecendo Sua soberania e
             bondade em nossas vidas. Desejamos compartilhar esse amor
@@ -38,7 +38,7 @@ export default function SobreNos() {
             Cristo, que deu sua vida por nós.
           </p>
 
-          <p className="text-gray-500 mt-8">
+          <p data-aos="zoom-out" className="text-gray-500 mt-8">
             <span className="font-extrabold"> Servir: </span> Comprometemo-nos a
             servir a humanidade com humildade e compaixão, seguindo os passos do
             nosso Salvador, que veio não para ser servido, mas para servir.
@@ -46,7 +46,7 @@ export default function SobreNos() {
             encorajamento, mostrando o amor prático de Deus em ação.
           </p>
 
-          <p className="text-gray-500 mt-8">
+          <p data-aos="zoom-out" className="text-gray-500 mt-8">
             <span className="font-extrabold"> Influência: </span> Reconhecemos o
             chamado para ser luz do mundo e sal da terra, levando a esperança
             transformadora do Evangelho a todos os lugares onde somos enviados.
@@ -56,7 +56,7 @@ export default function SobreNos() {
           </p>
         </div>
 
-        <h1 className="text-gray-500 mt-8">
+        <h1 data-aos="zoom-in" className="text-gray-500 mt-8">
           Assim, nossa Missão transcende fronteiras e limitações, impulsionada
           pela fé, esperança e amor que encontramos em Cristo Jesus. Que cada
           ação, cada palavra e cada pensamento reflita a beleza e o poder dessa
@@ -64,23 +64,32 @@ export default function SobreNos() {
           graça e misericórdia.
         </h1>
 
-        <div className="mt-8 space-y-12 md:space-y-0 md:mt-32 flex flex-col md:flex-row items-center justify-center md:gap-16">
+        <div
+          data-aos="zoom-in"
+          className="mt-8 space-y-12 md:space-y-0 md:mt-32 flex flex-col md:flex-row items-center justify-center md:gap-16"
+        >
           <div className="flex flex-col items-center justify-center">
             <IoHeart className="text-yellow-500 text-5xl" />
 
-            <h1 className="text-yellow-500 text-5xl">Amor</h1>
+            <h1 data-aos="zoom-in" className="text-yellow-500 text-5xl">
+              Amor
+            </h1>
           </div>
 
           <div className="flex flex-col items-center justify-center">
             <FaHandHoldingHeart className="text-yellow-500 text-5xl" />
 
-            <h1 className="text-yellow-500 text-5xl">Servir</h1>
+            <h1 data-aos="zoom-in" className="text-yellow-500 text-5xl">
+              Servir
+            </h1>
           </div>
 
           <div className="flex flex-col items-center justify-center">
             <FaPeopleArrows className="text-yellow-500 text-5xl" />
 
-            <h1 className="text-yellow-500 text-5xl">Influenciar</h1>
+            <h1 data-aos="zoom-in" className="text-yellow-500 text-5xl">
+              Influenciar
+            </h1>
           </div>
         </div>
       </div>

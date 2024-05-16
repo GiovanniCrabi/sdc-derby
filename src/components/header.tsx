@@ -62,7 +62,7 @@ export const Header = () => {
       }`}
     >
       <div className="flex items-center">
-        <Link href="#" className="text-white" onClick={handleLinkClick}>
+        <Link href="/" className="text-white" onClick={handleLinkClick}>
           <Image
             src={Logo}
             alt="Church Name"
@@ -108,6 +108,16 @@ export const Header = () => {
               )}
             </li>
           </div>
+
+          <li>
+            <Link
+              href="/generosidade"
+              className="text-white hover:text-gray-300 h-full flex items-center relative hover:before:w-full hover:after:w-full before:absolute before:top-0 before:left-0 before:h-0.5 before:bg-white before:w-0 before:transition-all before:duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300"
+              onClick={handleLinkClick}
+            >
+              Generosidade
+            </Link>
+          </li>
 
           <li>
             <Link
@@ -191,7 +201,7 @@ export const Header = () => {
 
               <li>
                 <span
-                  className="flex items-center gap-[2px] text-white hover:text-gray-300 block px-3 py-2 relative hover:before:w-auto hover:after:w-auto before:absolute before:top-0 before:left-0 before:h-0.5 before:bg-white before:w-0 before:transition-all before:duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300"
+                  className="flex items-center gap-[2px] text-white hover:text-gray-300 px-3 py-2 relative hover:before:w-auto hover:after:w-auto before:absolute before:top-0 before:left-0 before:h-0.5 before:bg-white before:w-0 before:transition-all before:duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300"
                   onClick={() => setShowDropdown(!showDropdown)}
                 >
                   Institucional

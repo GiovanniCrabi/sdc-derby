@@ -101,10 +101,10 @@ export const EventSection = () => {
               href="#"
               className="mt-2 hover:underline ease-in duration-300"
             >
-              (Confira nossa agenda)
+              <Link href="/agenda"> (Confira nossa agenda) </Link>
             </Link>
             <p className="mt-4">
-              Junte-se a nós para um culto especial nesta sexta-feira! Venha
+              Junte-se a nós para um culto especial neste Sábado! Venha
               experimentar uma noite de louvor, oração e inspiração. Todos são
               bem-vindos para se juntar a nós enquanto buscamos crescer em nossa
               fé e nos conectarmos como uma comunidade. Esperamos vê-lo lá!

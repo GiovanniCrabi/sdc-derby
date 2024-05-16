@@ -153,3 +153,53 @@ export const paragrafosMissoes: TextoProps = {
     },
   ],
 };
+
+export const cultura: ParagrafoProps[] = [
+  {
+    id: 1,
+    text: "Bem-vindos ao Santuário de Cristo, um refúgio espiritual onde a fé se encontra com a comunhão e o amor se manifesta em ação. Em nosso santuário, buscamos seguir os ensinamentos de Jesus Cristo, que nos chamou a amar a Deus sobre todas as coisas e ao próximo como a nós mesmos.",
+  },
+  {
+    id: 2,
+    text: "No Santuário de Cristo, acreditamos que cada indivíduo é uma preciosa criação de Deus, dotada de dignidade e valor inestimáveis. Assim, acolhemos a todos, sem distinção de raça, gênero, orientação sexual ou status social. Aqui, cada pessoa é recebida com amor e respeito, convidada a compartilhar sua jornada espiritual e a encontrar conforto, orientação e apoio.",
+  },
+  {
+    id: 3,
+    text: "Em nosso santuário, buscamos viver de acordo com os princípios do evangelho, praticando a compaixão, a generosidade e a justiça em todas as áreas de nossas vidas. Procuramos ser uma luz na comunidade, estendendo a mão aos necessitados, defendendo os oprimidos e trabalhando pela paz e reconciliação.",
+  },
+  {
+    id: 4,
+    text: "No Santuário de Cristo, a adoração é central em nossas vidas. Reunimo-nos regularmente para louvar a Deus, celebrar sua graça e buscar sua orientação. Em nossos cultos, encontramos inspiração nas Escrituras Sagradas, na oração e na música, fortalecendo nossa fé e renovando nosso compromisso com o serviço e o amor ao próximo.",
+  },
+  {
+    id: 5,
+    text: "Juntos, como uma família espiritual, nos encorajamos mutuamente, compartilhamos nossas alegrias e tristezas, e nos apoiamos em tempos de necessidade. No Santuário de Cristo, somos uma comunidade unida pelo amor de Deus e pelo desejo de seguir os passos de Jesus Cristo, nosso Salvador e Senhor.",
+  },
+  {
+    id: 6,
+    text: "Seja você um visitante pela primeira vez ou um membro de longa data, convidamos você a se juntar a nós no Santuário de Cristo, onde todos são bem-vindos, todos são amados e todos são chamados a viver uma vida de fé, esperança e amor.",
+  },
+];
+
+export const donation: ParagrafoProps[] = [
+  {
+    id: 1,
+    text: "Somos o Santuário de Cristo, uma comunidade dedicada à generosidade. Como santuário, firmamos a convicção de que a generosidade é um princípio vital em nossa jornada cristã. Entendemos que Deus nos convoca a expressar generosidade não apenas em nossas palavras e ações, mas também em nossas ofertas financeiras.",
+  },
+  {
+    id: 2,
+    text: "Para nós, a oferta vai além de uma simples contribuição; é uma oportunidade de adoração a Deus e um investimento no avanço do Seu reino. Ao ofertarmos, honramos e depositamos a nossa confiança em Deus.",
+  },
+  {
+    id: 3,
+    text: "No Santuário de Cristo, promovemos e incentivamos ativamente a generosidade, acreditando que Deus abençoa abundantemente aqueles que dão com um coração grato. Portanto, encorajamos você a abraçar a generosidade em suas ofertas, confiando que Deus atenderá todas as suas necessidades.",
+  },
+  {
+    id: 4,
+    text: "Além disso, como comunidade, assumimos o compromisso de estender a generosidade para além das ofertas, manifestando-a em nossas ações e palavras. Buscamos constantemente ajudar os necessitados e espalhar o amor de Deus para todos ao nosso redor.",
+  },
+  {
+    id: 5,
+    text: "Convidamos você a se unir a nós nessa jornada de generosidade, seja através de suas ofertas, ações benevolentes ou palavras edificantes. Juntos, podemos impactar positivamente a vida das pessoas e honrar a Deus com tudo o que temos e somos.",
+  },
+];
