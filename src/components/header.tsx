@@ -263,6 +263,15 @@ export const Header = () => {
               </li>
 
               <li className={`${showDropdown ? "mt-2" : "mt-0"}`}>
+                <li>
+                  <Link
+                    href="/generosidade"
+                    className="text-white hover:text-gray-300 block px-3 py-2 relative hover:before:w-auto hover:after:w-auto before:absolute before:top-0 before:left-0 before:h-0.5 before:bg-white before:w-0 before:transition-all before:duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300"
+                    onClick={handleLinkClick}
+                  >
+                    Generosidade
+                  </Link>
+                </li>
                 <Link
                   href="/agenda"
                   className={`text-white hover:text-gray-300 block px-3 py-2 relative hover:before:w-auto hover:after:w-auto before:absolute before:top-0 before:left-0 before:h-0.5 before:bg-white before:w-0 before:transition-all before:duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300`}
