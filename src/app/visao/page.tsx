@@ -12,7 +12,7 @@ export default function Visao() {
     <div className="min-h-screen">
       <HeaderInstitucional image={image} title="Visão" subTitle="Nossa Visão" />
 
-      <div className="w-full h-full bg-white py-10 md:py-20 px-6 md:px-16 ">
+      <div className="w-full h-full bg-white py-12 md:py-20 px-6 md:px-16 ">
         <h1 data-aos="zoom-in" className="text-black">
           A nossa visão é SER uma igreja relevante na Sociedade e para as
           famílias. A nossa visão frisa o que nós cremos e vemos como igreja.
