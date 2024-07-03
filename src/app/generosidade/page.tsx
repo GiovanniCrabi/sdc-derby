@@ -1,6 +1,8 @@
 import { HeaderInstitucional } from "@/components/headerInstitucional";
 
 import image from "../../../public/doacao.png";
+
+import qr from '../../../public/qr.png'
 import Image from "next/image";
 import { donation } from "@/contents/contents";
 import Link from "next/link";
@@ -66,9 +68,11 @@ export default function Cultura() {
                 Doação OnLine
               </h1>
 
+              <Image src={qr} alt="qr-image" className="bg-white border-2 rounded-md w-40 h-40"/>
+
               <Link href="https://pay.sumup.com/b2c/QV7CKC0B" target="_blank">
                 <button
-                  className={`border-2 border-yellow-400 text-white font-bold py-2 px-4 hover:py-3 hover:px-5 rounded ease-in duration-300`}
+                  className={`mt-6 border-2 border-yellow-400 text-white font-bold py-2 px-4 hover:py-3 hover:px-5 rounded ease-in duration-300`}
                 >
                   Click Aqui
                 </button>
