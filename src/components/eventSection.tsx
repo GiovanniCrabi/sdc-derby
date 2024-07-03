@@ -13,7 +13,7 @@ export const EventSection = () => {
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold mb-6">Eventos</h1>
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-10 w-11/12 md:w-3/6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-10 w-11/12 md:w-5/6 lg:w-3/6">
           <Image
             data-aos="zoom-in-right"
             className="hidden md:flex w-full h-96"
@@ -97,12 +97,8 @@ export const EventSection = () => {
             <h1 className="text-lg font-bold uppercase text-yellow-600">
               Culto todos os sábados
             </h1>
-            <Link
-              href="#"
-              className="mt-2 hover:underline ease-in duration-300"
-            >
-              <Link href="/agenda"> (Confira nossa agenda) </Link>
-            </Link>
+
+            <Link className="mt-2 hover:underline ease-in duration-300" href="/agenda"> (Confira nossa agenda) </Link>
             <p className="mt-4">
               Junte-se a nós para um culto especial neste Sábado! Venha
               experimentar uma noite de louvor, oração e inspiração. Todos são
